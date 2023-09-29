@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.container {
+  background-color:#FFF3E3;
+  transition: .4s ease;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.container-dark {
+  background-color:#121E31;
+}
+
+
+.App {
+  text-align: center;
+}
+
+  h1 {
+
+  color: 333333 ;
+  margin-bottom: 0.5rem;
+  font-size: 1.75rem;
+  transition: .4s ease;
+}
+
+.h1-dark{
+    color: #CCCCCC;
+}
+
+.TodoWrapper {
+
+background-color: #65d1fb;
+transition: .4s ease;
+position: relative;
+  margin-top: 5rem;
+  padding: 2rem;
+  border-radius: 5px;
+  height: fit-content;
+}
+
+.dark-TodoWrapper {
+  /* background: #1A1A40; */
+  background-color:  #191970;
+}
+
+.dark-toggle {
+  transition: .4s ease;
+  position: absolute;
+  top: 2.5rem;
+  right: 2rem;
+  background: transparent;
+  border: none  ;
+}
+.To doForm {
+  width: 100%;
+}
+
+.todo-input {
+  outline: none;
+  background: none  ;
+  border: 1px solid #8758ff;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff;
+ 
+}
+
+.todo-btn {
+  transition: .4s ease;
+  /* background: #8758ff; */
+  background-color: #FF6B6B;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  
+}
+
+.todo-btn-dark {
+  background-color: #009688;
+}
+
+.Todo {
+  transition: .4s ease;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FF6B6B;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.Todo-dark {
+  background-color: #708090;
+}
+
+.fa-trash {
+  margin-left: 0.75rem;
+}
+
+.completed {
+  color: #ffffff;
+  background-color: #388E3C;
+  text-decoration: line-through;
+}
+.completed-dark {
+  background-color: #388E3C;
+}
+ 
