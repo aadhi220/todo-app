@@ -52,6 +52,8 @@ export const TodoWrapper = () => {
     setDarkMode(true);
     console.log(darkMode);
   };
+
+  todos.sort((a, b) =>b.id - a.id);
   return (
    <div className={`${darkMode && 'container-dark '}  container`}>
       <div className={`${darkMode && 'dark-TodoWrapper'} TodoWrapper`}>
